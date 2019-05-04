@@ -1,10 +1,10 @@
 /**
  * Import libraries
  */ 
-const mongoose = require('mongoose');
-const bcrypt = require('bcrypt');
+const mongoose  = require('mongoose');
+const bcrypt    = require('bcrypt');
 
-const Schema = mongoose.Schema;
+const Schema    = mongoose.Schema;
 
 /**
  * Create the user schema

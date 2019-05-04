@@ -1,5 +1,5 @@
-const User = require('../../db/models/user');
-const { errors, success } = require('../status-codes'); 
+const User                  = require('../../db/models/user');
+const { errors, success }   = require('../status-codes'); 
 
 async function create(name, email, password){
     try{

@@ -1,14 +1,20 @@
 /**
  * Import libraries
  */
-const express = require('express');
+const express   = require('express');
 // Initialize router
-const router = express.Router();
+const router    = express.Router();
 
 /**
  * Import controller logic
  */
 const user = require('../controllers/User/user');
+
+router.get('/', (_req,res)=> {
+    res.send('home');
+});
+
+router.get('/a', (req,res)=> res.render('boilerplate'));
 
 router.post('/create-user', (req,res) => {
     let [ name, email, password ] = [ req.body.name, req.body.email, req.body.password ];

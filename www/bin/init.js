@@ -1,13 +1,13 @@
 /**
  *  Import libraries  
  */ 
-const http = require('http');
-const app = require('../../app');
+const http      = require('http');
+const app       = require('../../app');
 
 /**
  * Create the server
  */
-const server = http.createServer(app);
+const server    = http.createServer(app);
 
 /**
  * Configure port

@@ -5,12 +5,13 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon www/bin/init"
+    "start": "nodemon www/bin/init"
   },
   "author": "Sarthak",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.0.0",
+    "ejs": "^2.6.1",
     "express": "^4.16.4",
     "morgan": "^1.9.1"
   }
